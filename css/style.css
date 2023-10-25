@@ -1,6 +1,7 @@
 @import url(https://fonts.googleapis.com/css?family=Roboto:100,100italic,300,300italic,regular,italic,500,500italic,700,700italic,900,900italic);
 @import url(https://fonts.googleapis.com/css?family=Yrsa:300,regular,500,600,700,300italic,italic,500italic,600italic,700italic);
 
+
 * {
   margin: 0;
   padding: 0;
@@ -84,4 +85,71 @@
   font-style: normal;
   font-weight: 400;
   line-height: 40px;
+}
+
+.oracle {
+  width: 100%;
+  background-color: #EDF8F9;
+}
+
+.oracle-container {
+  max-width: 1120px;
+  margin: auto;
+}
+
+.oracle-title {
+  color: #3C3935;
+  text-align: center;
+  font-family: 'Segoe UI';
+  font-size: 46px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 144px;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}
+
+.oracle-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.oracle-column {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 84px;
+}
+
+.oracle-column:not(:last-child) {
+  margin-right: 160px;
+}
+
+.oracle-image {
+  width: 86.859px;
+  height: 86px;
+  margin-bottom: 8px;
+}
+
+.oracle-column-title {
+  color: #0099A8;
+  text-align: center;
+  font-family: 'Segoe UI';
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28.8px;
+  margin-bottom: 6px;
+}
+
+.oracle-column-text {
+  color: #3C3935;
+  font-family: 'Segoe UI';
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 19.7px;
+  letter-spacing: 0.42px;
 }
